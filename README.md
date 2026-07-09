@@ -1,6 +1,6 @@
 # 🎯 Adult Income Classification Project
 
-## Overview
+### Overview
 A complete end-to-end machine learning pipeline to predict 
 whether a person earns more than **$50,000/year** using 
 1994 U.S. Census data. The project covers the full data 
