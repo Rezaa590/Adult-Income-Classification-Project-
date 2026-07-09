@@ -10,7 +10,14 @@ whether a person earns more than **$50,000/year** using
 1994 U.S. Census data. The project covers the full data 
 science workflow — from raw data cleaning to model evaluation 
 and selection.
+---
 
+## 👤 Author
+- Project completed as part of a data science 
+  learning journey
+- Dataset: UCI Adult Census Income (1994)
+- Source: https://archive.ics.uci.edu/dataset/2/adult
+```
 ---
 
 ## 📊 Dataset
@@ -18,32 +25,6 @@ and selection.
 - **Size:** 48,842 rows × 15 features
 - **Target variable:** `income` (`<=50K` or `>50K`)
 - **Type:** Binary Classification
-
----
-
-## 🗂️ Project Structure
-
-```
-Phase 1 — Data Loading, Cleaning & Exploration
-├── Loading & combining adult.data + adult.test
-├── Handling missing values (MNAR analysis)
-├── Descriptive statistics & data inspection
-└── Exploratory Data Analysis (EDA)
-    ├── Numerical features (age, hours-per-week)
-    └── Categorical features (8 variables vs income)
-
-Phase 2 — Encoding, Modeling & Evaluation
-├── Feature engineering (dropping redundant columns)
-├── Encoding (LabelEncoder + pd.get_dummies)
-├── Correlation analysis
-├── Train/Test split (80/20, stratified)
-├── Feature scaling (StandardScaler)
-├── Model training (3 models × 2 versions = 6 total)
-├── Model evaluation (Accuracy, F1, Recall, AUC)
-├── Feature importance & AUC analysis
-└── Final model recommendation
-```
-
 ---
 
 ## 🤖 Models Used
@@ -112,21 +93,9 @@ scikit-learn  # machine learning models & evaluation
 
 ---
 
-## 📁 Files
-```
-├── income analysis.ipynb    # main notebook
-├── adult.data               # training data (UCI)
-├── adult.test               # test data (UCI)
-└── README.md                # this file
-```
+
 
 ---
 
-## 👤 Author
-- Project completed as part of a data science 
-  learning journey
-- Dataset: UCI Adult Census Income (1994)
-- Source: https://archive.ics.uci.edu/dataset/2/adult
-```
 
-This gives your GitHub repository a professional, complete README that covers everything someone needs to know before diving into your notebook. Want me to adjust the author section or add anything specific?
+
