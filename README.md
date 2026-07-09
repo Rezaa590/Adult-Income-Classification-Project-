@@ -34,12 +34,9 @@
 | LR Balanced | 81% | **0.83** | 0.67 | **0.816** |
 | RF Balanced | 83% | 0.74 | **0.68** | 0.801 |
 
-### No Single "Best" Model
+### "Best" Model based on our case of study
 - **LR Balanced** → best for financial/business applications
   where missing a high earner is costly (**Recall: 0.83**)
-- **RF Balanced** → best for academic/research applications
-  where overall balance matters more (**F1: 0.68**)
-
 ---
 
 ## 🔍 Key Findings
